@@ -4,7 +4,7 @@ handle = open(name)
 emails = dict()
 
 # For loop to split the lines up into individual words
-# In the file
+# in the file into a list
 for line in handle:
     x = line.split()
     # If From exists in the split list it will get the email and append it to the dictionary, adding one count
